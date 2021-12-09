@@ -12,6 +12,7 @@
 1. What is a conditional statement? Give three examples.
 
   - A conditional statement evaluates if some information is true or false
+
     1.
        ```ruby
        if examples < 3
@@ -45,7 +46,6 @@
 
 1. What is the Ruby syntax for an if statement?
 
-  -
     ```ruby
     if something = something
       puts "something"
@@ -58,7 +58,6 @@
 
 1. Provide an example of the Ruby syntax for an if/elsif/else statement:
 
-  -
     ```ruby
     if something = something
       puts "something"
@@ -77,10 +76,34 @@
 
 1. In your own words, what is the purpose of a method?
 
+   - I'm gonna do this twice.
+     1. To compare it to Magic the Gathering, when you cast a spell, you make everything on that spell card happen. On the card is a list of things that happen in order.
+     Creating a method is kind of like creating your own spell card that you get to cast whenever you want to!
+     Invoking a method is kind of like casting that spell. When you invoke a method, everything you listed in that method happens in order.
+     2. Put simply, you can create a method to do a list of things and invoke it to do all of those things without having to write the whole thing out every time.
+
 1. Create a method named `hello` that will print `"Sam I am"`.
+
+```ruby
+def hello
+  puts "Sam I am"
+end
+```
 
 1. Create a method named `hello_someone` that takes an argument of `name` and prints `"#{name} I am"`.
 
+```ruby
+def hello_someone(name)
+  puts "#{name} I am"
+end
+```
+
 1. How would you call or execute the method that you created above?
 
+```ruby
+hello_someone("Sandisz")
+```
+
 1. What questions do you have about methods in Ruby?
+
+   - Hardly a question, but I'm very excited to see all of this used in practice!
