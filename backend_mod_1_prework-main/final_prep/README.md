@@ -33,9 +33,9 @@ In Mod 0 you've learned about different techniques for managing your time at Tur
 When you are finished, add screenshots of your calendar so we can provide feedback if needed!
 
 - `Add Week 1 Screenshot Here`
-- <img width="1198" alt="Screen Shot 2021-12-16 at 2 07 04 PM" src="https://user-images.githubusercontent.com/94508708/146449291-78e0f4ca-a40f-4c91-b42e-7b4980b9dde5.png">
+<img width="1198" alt="Screen Shot 2021-12-16 at 2 07 04 PM" src="https://user-images.githubusercontent.com/94508708/146449291-78e0f4ca-a40f-4c91-b42e-7b4980b9dde5.png">
 - `Add Week 2 Screenshot Here`
-- <img width="1202" alt="Screen Shot 2021-12-16 at 2 08 09 PM" src="https://user-images.githubusercontent.com/94508708/146449295-d0776608-46d9-4ba2-841b-637da815ec70.png">
+<img width="1202" alt="Screen Shot 2021-12-16 at 2 08 09 PM" src="https://user-images.githubusercontent.com/94508708/146449295-d0776608-46d9-4ba2-841b-637da815ec70.png">
 - `Add Week 3 Screenshot Here`
 <img width="1198" alt="Screen Shot 2021-12-16 at 2 08 21 PM" src="https://user-images.githubusercontent.com/94508708/146449298-5be8a827-e65a-414d-a139-65bda684b3ee.png">
 
