@@ -34,13 +34,17 @@ When you are finished, add screenshots of your calendar so we can provide feedba
 
 - `Add Week 1 Screenshot Here`
 
-<img width="1198" alt="Screen Shot 2021-12-16 at 2 07 04 PM" src="https://user-images.githubusercontent.com/94508708/146449291-78e0f4ca-a40f-4c91-b42e-7b4980b9dde5.png">
+<img width="1204" alt="Screen Shot 2021-12-16 at 2 19 33 PM" src="https://user-images.githubusercontent.com/94508708/146450561-dc8cc0ad-9957-4c27-9516-6f017cbf8808.png">
+
+
 - `Add Week 2 Screenshot Here`
 
-<img width="1202" alt="Screen Shot 2021-12-16 at 2 08 09 PM" src="https://user-images.githubusercontent.com/94508708/146449295-d0776608-46d9-4ba2-841b-637da815ec70.png">
+<img width="1209" alt="Screen Shot 2021-12-16 at 2 19 52 PM" src="https://user-images.githubusercontent.com/94508708/146450566-49a2a183-0e72-4f1d-8868-1651169c09b4.png">
+
 - `Add Week 3 Screenshot Here`
 
-<img width="1198" alt="Screen Shot 2021-12-16 at 2 08 21 PM" src="https://user-images.githubusercontent.com/94508708/146449298-5be8a827-e65a-414d-a139-65bda684b3ee.png">
+<img width="1202" alt="Screen Shot 2021-12-16 at 2 20 02 PM" src="https://user-images.githubusercontent.com/94508708/146450568-8e374ee4-9e4e-4ac6-b634-3a0fb6027efb.png">
+
 
 ### Mentorship Prep
 Mentorship is an integral part of the Turing experience and will help jumpstart your technical career. In order to get your mentor relationship started on the right foot, please complete the following deliverables:
