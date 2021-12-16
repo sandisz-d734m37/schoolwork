@@ -1,5 +1,4 @@
-#Defines the method/function named "cheese_and_crackers", as well as
-#the parameters (cheese_count, boxes_of_crackers)
+#Declare the method/function named "cheese_and_crackers", with 2 parameters
 #         name                 parameters
 def cheese_and_crackers(cheese_count, boxes_of_crackers)
 #This is the method/function body, this is where you define what
@@ -13,14 +12,14 @@ def cheese_and_crackers(cheese_count, boxes_of_crackers)
   puts "You have #{boxes_of_crackers} boxes of crackers!"
 #then this,
   puts "Man that's enough for a party!"
-#then this! ("\n" excludes nil maybe?)
+#then this! ("\n" excludes nil)
   puts "Get a blanket.\n"
 #ends the fucntion/method
 end
 
 #Simply print this.
 puts "We can just give the method numbers directly:"
-#Invokes "cheese_and_crackers" with 2 arguments, 20 and 30.
+#Invoke "cheese_and_crackers" with 2 arguments, 20 and 30.
 #These arguments define the parameters, "cheese_count" and
 #"boxes_of_crackers" in order.
 #cheese_count = 20, boxes_of_crackers = 30
@@ -28,11 +27,11 @@ cheese_and_crackers(20, 30)
 
 #Simply print this.
 puts "OR, we can use variables from our script:"
-#Creates variable ammount_of_cheese and sets it to 10
+#Declares variable ammount_of_cheese and assign it this integer
 amount_of_cheese = 10
-#Creates variable ammount_of_crackers and sets it to 50
+#Declares variable ammount_of_crackers and assign it this integer
 amount_of_crackers = 50
-#Invokes "cheese_and_crackers" and passes the variables,
+#Invoke "cheese_and_crackers" and pass the variables,
 #"amount_of_cheese" and "amount_of_crackers" to the method as
 #arguments. This can be understood as:
 #cheese_count = amount_of_cheese = 10
@@ -41,7 +40,7 @@ cheese_and_crackers(amount_of_cheese, amount_of_crackers)
 
 #Simply print this.
 puts "We can even do math inside too:"
-#Invokes "cheese_and_crackers" using the math below as arguments, which
+#Invoke "cheese_and_crackers" using the math below as arguments, which
 #define the parameters
 #cheese_count = 10 + 20 = 30
 #boxes_of_crackers = 5 + 6 = 11
@@ -49,7 +48,7 @@ cheese_and_crackers(10 + 20, 5 + 6)
 
 #Simply print this.
 puts "And we can combine the two, variable and math:"
-#Invokes "cheese_and_crackers" and uses the variables defined above
+#Invoke "cheese_and_crackers" and use the variables defined above
 #as well as some math to create an argument to define the parameters
 #cheese_count = amount_of_cheese + 100 = 10 + 100 = 110
 #boxes_of_crackers = amount_of_crackers + 1000 = 50 + 1000 = 1050

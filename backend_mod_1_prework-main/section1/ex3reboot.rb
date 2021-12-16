@@ -1,4 +1,4 @@
-#Prints "I will now cont my chickens:"
+#Prints "I will now count my chickens:"
 puts "I will now count my chickens:"
 
 #Prints "Hens: 30.0" (aka 25.0 + 30.0 / 6.0)
@@ -6,7 +6,7 @@ puts "Hens #{25.0 + 30.0 / 6.0}"
 #Prints "Rooster 97.0" (aka 100.0 - 25.0 * 3.0 % 4.0)
 puts "Rooster #{100.0 - 25.0 * 3.0 % 4.0}"
 
-#Prints "now I will cont the eggs:"
+#Prints "now I will count the eggs:"
 puts "now I will count the eggs:"
 
 #Prints 6.75 (aka 3.0 + 2.0 + 1.0 - 5.0 + 4.0 % 2.0 - 1.0 / 4.0 + 6.0)

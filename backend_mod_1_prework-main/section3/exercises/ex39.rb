@@ -28,7 +28,7 @@ puts '-' * 10
 puts "Michigan's abbreviation is: #{states['Michigan']}"
 puts "Florida's abbreviation is: #{states["Florida"]}"
 
-# do it by using the state then citiec dict
+# interpolate the cities by interpolating the state hash to get the key
 puts '-' * 10
 puts "Michigan has: #{cities[states['Michigan']]}"
 puts "Florida has: #{cities[states['Florida']]}"
@@ -53,7 +53,7 @@ states.each do |state, abbrev|
 end
 
 puts '-' * 10
-# by default ruby says "nil" wne something isn't in there
+# by default ruby says "nil" when something isn't in there
 state = states['Texas']
 
 if !state
@@ -93,11 +93,6 @@ capitals.each do |state, city|
 end
 puts "I am from #{capitals['CO']}, #{states['CO']}"
 
-def a_method(nothing)
-  print nothing
-end
-
-a_method(no: 'thing', some: 'nothing')
 
 family = {
   uncles: ['bob', 'joe','steve'],
@@ -112,18 +107,19 @@ end
 
 arr = immediate_family.values.flatten
 
-p arr
+puts arr
 
 family.each do |k, v|
-  p k
+  puts k
 end
 
 family.each do |k, v|
-  p v
+  puts v
 end
 
 family.each do |k, v|
-  p "#{k}: #{v}"
+  print "#{k}: "
+  puts v
 end
 
 person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
@@ -131,13 +127,20 @@ person = {name: 'Bob', occupation: 'web developer', hobbies: 'painting'}
 person_name = person.select do |k, v|
   k == :name
 end
-p person_name.values
+puts person_name.values
 
 person_name = person[:name]
-p person_name
+puts person_name
 
+puts "what is your name?"
+print "=> "
 me = {
-  'name' => "my name is #{gets.chomp}",
-  'age' => "my age is #{gets.chomp}"
+  name: "my name is #{gets.chomp}",
+  age: " "
 }
-p me
+puts "what is your age?"
+print "=> "
+me[:age] = "My age is #{gets.chomp}"
+
+puts me[:name]
+puts me[:age]

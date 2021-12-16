@@ -1,36 +1,36 @@
-# Assigns a value to the variable "types_of_people"
+#Declare the variable "types_of_people" and assign it this integer
 types_of_people = 10
-# Assigns a value to the variable "x" using the "types_of_people" variable
+#Declare the variable "x" and assign it this string
 x = "There are #{types_of_people} types of people."
-# Assigns a value to the variable "binary"
+#Declare the variable "binary" and assign it this string
 binary = "binary"
-# Assigns a value to the variable "do_not"
+#Declare the variable "do_not" and assign it this string
 do_not = "don't"
-# Assigns a value to the variable "y" using the "binary" and "do not" variables
+#Declare the variable "y" and assign it this string
 y = "Those who know #{binary} and those who #{do_not}."
 
-# Prints the variable "x"
+#Print the string assigned to variable "x"
 puts x
-# Prints the variable "y"
+#Print the string assigned to variable "y"
 puts y
 
-# Prints "I said: (then the variable "x")."
+#Prints "I said: (then the string assigned to variable "x")."
 puts "I said: #{x}."
-# Prints "I also said: '(then the variable "y")'."
+#Prints "I also said: '(then the string assigned to  variable "y")'."
 puts "I also said: '#{y}'."
 
-# Assigns a value to the variable "hilarious"
+#Declare the variable "hilarious" and assign it this boolean value
 hilarious = false
-# Assigns a value to the variable "joke_evaluation" using the variable "hilarious"
+#Declare the variable "joke_evaluation" and assign it this string
 joke_evaluation = "Isn't that joke so funny?! #{hilarious}"
 
-# Prints the variable "joke_evaluation", which includes the varible "hilarous"
+#Print the variable "joke_evaluation", which includes the varible "hilarous"
 puts joke_evaluation
 
-# Assigns a value to the variable "w"
+#Declare the variable "w" and assign it this string
 w = "butt"
-# Assigns a value to the variable "e"
+#Declare the variable "e" and assign it this string
 e = "ass1"
 
-# Prints the variable "w" followed immediately by the variable "e"
+#Print the variable "w" followed immediately by the variable "e"
 puts w + e

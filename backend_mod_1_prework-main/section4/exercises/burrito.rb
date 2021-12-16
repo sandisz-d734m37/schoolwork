@@ -29,12 +29,12 @@ class Burrito
 end
 
 dinner = Burrito.new("Beans", "Rice", ["cheese", "salsa", "guacamole"])
-p dinner.protein
-p dinner.base
-p dinner.toppings
+puts dinner.protein
+puts dinner.base
+puts dinner.toppings
 dinner.add_topping("pico de gallo")
 dinner.remove_topping("cheese")
 dinner.change_protein("Beef")
-p dinner.protein
-p dinner.base
-p dinner.toppings
+puts dinner.protein
+puts dinner.base
+puts dinner.toppings

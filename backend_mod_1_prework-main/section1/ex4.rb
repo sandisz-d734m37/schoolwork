@@ -1,21 +1,21 @@
-#Tells the computer what the variable "cars" means or is
+#Declare the variable "cars" and assign it this integer
 cars = 100
-#Tells the computer what the variable "space_in_a_car" means or is
+#Declare the variable "space_in_a_car" and assign it this integer
 space_in_a_car = 4
-#Tells the computer what the variable "drivers" means or is
+#Declare the variable "drivers" and assign it this integer
 drivers = 30
-#Tells the computer what the variable "passengers" means or is
+#Declare the variable "passengers" and assign it this integer
 passengers = 90
-#Tells the computer what the variable "cars_not_driven" means or is
+#Declare the variable "cars_not_driven" and assign it the integer equal to cars - drivers
 cars_not_driven = cars - drivers
-#Tells the computer what the variable "cars_driven" means or is
+#Declare the variable "cars_driven" and assign it the integer equal to drivers
 cars_driven = drivers
-#Tells the computer what the variable "carpool_capacity" means or is
+#Declare the variable "carpool_capacity" and assign it the integer equal to cars_driven * space_in_a_car
 carpool_capacity = cars_driven * space_in_a_car
-#Tells the computer what the variable "average_passengers_per_car" means or is
+#Declare the variable "average_passengers_per_car" and assign it the integer equal to passengers / cars_driven
 average_passengers_per_car = passengers / cars_driven
 
-#lines 19-24 print whats in the "", including the actual variables (not their names) and does the math related to each variable
+#lines 19-24 print these strings, including their interpolated variables
 puts "There are #{cars} cars available."
 puts "There are only #{drivers} drivers available."
 puts "There will be #{cars_not_driven} empty cars today."

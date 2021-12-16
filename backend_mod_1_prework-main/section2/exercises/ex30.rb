@@ -1,8 +1,8 @@
-# Sets value for variable "people"
+# Declare vaiable 'people' and assign it this integer
 people = 30
-# Sets value for variable "cars"
+# Declare vaiable 'cars' and assign it this integer
 cars = 40
-# Sets value for variable "trucks"
+# Declare vaiable 'trucks' and assign it this integer
 trucks = 15
 
 # Tells the computer: if "cars" is more than "people"...

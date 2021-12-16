@@ -1,4 +1,4 @@
-#Prints "I will now cont my chickens:"
+#Prints "I will now count my chickens:"
 puts "I will now count my chickens:"
 
 #Prints "Hens: 30" (aka 25 + 30 / 6)
@@ -6,7 +6,7 @@ puts "Hens #{25 + 30 / 6}"
 #Prints "Rooster 97" (aka 100 - 25 * 3 % 4)
 puts "Rooster #{100 - 25 * 3 % 4}"
 
-#Prints "now I will cont the eggs:"
+#Prints "now I will count the eggs:"
 puts "now I will count the eggs:"
 
 #Prints 7 (aka 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6)
@@ -35,4 +35,3 @@ puts "Is it greater? #{5 > -2}"
 puts "Is it greater or equal? #{5 >= -2}"
 #Prints "Is it less or equal? false" because 5 is NOT less than or equal (<=) to -2
 puts "Is it less or equal? #{5 <= -2}"
- 

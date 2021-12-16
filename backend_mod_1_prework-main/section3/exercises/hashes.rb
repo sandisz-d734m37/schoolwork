@@ -5,36 +5,46 @@
 
 # Example: Write code that prints a hash holding grocery store inventory:
 foods = {apples: 23, grapes: 507, eggs: 48}
-p foods
+foods.each do |k, v|
+  print "#{k}: "
+  puts v
+end
+
 
 # Write code that prints a hash holding zoo animal inventory:
 zoo = {lion: 1, monkey: 3, tiger:2, bird:109598232}
-p zoo
+zoo.each do |k, v|
+  print "#{k}: "
+  puts v
+end
 
 # Write code that prints all of the 'keys' of the zoo variable
 # you created above:
 zoo.each do |k, v|
-  p k
+  puts k
 end
 
 # Write code that prints all of the 'values' of the zoo variable
 # you created above:
 # YOUR CODE HERE
 zoo.each do |k, v|
-  p v
+  puts v
 end
 
 
 # Write code that prints the value of the first animal of the zoo variable
 # you created above:
 # YOUR CODE HERE
-p zoo[:lion]
+puts zoo[:lion]
 
 # Write code that adds an animal to the zoo hash.
 # Then, print the updated hash:
 # YOUR CODE HERE
 zoo[:bison] = 53
-p zoo
+zoo.each do |k, v|
+  print "#{k}: "
+  puts v
+end
 #-------------------
 # Part 2: Email
 #-------------------
@@ -56,20 +66,20 @@ emailements = {
 
 # Write code that prints your email hash to the terminal.
 emailements.each do |k, v|
-  p "#{k} => #{v}"
+  puts "#{k}: #{v}"
 end
 # Write code that prints all of the 'keys' of the email hash
 # you created above:
 # YOUR CODE HERE
 emailements.each do |k, v|
-  p k
+  puts k
 end
 
 # Write code that prints all of the 'values' of the email hash
 # you created above:
 # YOUR CODE HERE
 emailements.each do |k, v|
-  p v
+  puts v
 end
 
 
@@ -108,8 +118,6 @@ posts = [
   }
 ]
 
-puts posts
-puts posts[0]
 
 
 # The code snippet above shows an Array with 2 elements. Each element in an
@@ -145,4 +153,6 @@ emails = [
     'attachments' => 'proposal.dox'
   }
 ]
-puts emails
+emails.each do |k, v|
+  puts k
+end

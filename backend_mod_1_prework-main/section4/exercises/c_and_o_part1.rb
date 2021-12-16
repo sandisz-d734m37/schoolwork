@@ -12,7 +12,7 @@ class GoodDog
 end
 
 sparky = GoodDog.new("Sparky")
-p "what is your dog's name?"
+puts "what is your dog's name?"
 print "=>"
 my_dog = GoodDog.new(gets.chomp)
 
